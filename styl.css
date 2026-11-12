@@ -1,0 +1,57 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+#mainContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#lewa{
+    display: flex;
+    flex-direction: column;
+}
+*{
+    font-family: sans-serif;
+}
+#lewa{
+    width: 70%;
+}
+header,main{
+    text-align: center;
+}
+header,aside{
+    background-color: paleturquoise;
+    border-radius: 20px;
+}
+header{
+    height: 100px;
+    padding: 2%;
+}
+aside{
+    width: 25%;
+    height: 700px;
+    line-height: 2;
+}
+footer{
+    padding-top: 10px;
+}
+#sekcja1{
+    border: dashed 1px dimgray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 400px;
+    overflow: auto;
+    text-align: start;
+}
+.miniatury{
+    height: 200px;
+    padding: 10px;
+    opacity: 0.8;
+    transition: all 1s;
+}
+.miniatury:hover{
+    opacity: 1;
+}
